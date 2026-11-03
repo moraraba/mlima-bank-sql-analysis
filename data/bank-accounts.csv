@@ -1,0 +1,901 @@
+account_id,county_id,opened_date,account_type,statement_frequency
+2001,6,2023-08-03,Savings,Weekly
+2002,1,2021-07-29,Current,Weekly
+2003,2,2022-01-23,Savings,Monthly
+2004,2,2021-01-04,Business,Weekly
+2005,5,2022-12-23,Current,Monthly
+2006,7,2023-10-16,Savings,Weekly
+2007,1,2022-09-25,Current,Monthly
+2008,6,2021-08-27,Savings,Monthly
+2009,2,2021-12-26,Savings,Weekly
+2010,4,2021-01-19,Savings,Monthly
+2011,7,2023-11-15,Current,Monthly
+2012,14,2022-03-02,Savings,Monthly
+2013,2,2023-06-28,Current,Monthly
+2014,4,2023-03-06,Business,Monthly
+2015,2,2021-04-06,Savings,Monthly
+2016,3,2021-10-04,Business,Monthly
+2017,13,2022-02-16,Business,Monthly
+2018,4,2021-12-31,Current,Per transaction
+2019,2,2021-04-22,Savings,Monthly
+2020,13,2021-04-04,Savings,Weekly
+2021,1,2021-02-07,Current,Monthly
+2022,7,2022-01-07,Current,Weekly
+2023,5,2021-07-16,Savings,Monthly
+2024,8,2021-09-25,Current,Per transaction
+2025,9,2022-07-15,Current,Monthly
+2026,10,2021-10-27,Current,Monthly
+2027,5,2022-03-19,Savings,Monthly
+2028,1,2021-12-06,Current,Weekly
+2029,1,2021-08-23,Business,Monthly
+2030,1,2022-08-30,Current,Monthly
+2031,15,2021-07-14,Current,Weekly
+2032,13,2022-03-11,Current,Monthly
+2033,13,2021-02-28,Current,Monthly
+2034,4,2021-04-16,Current,Weekly
+2035,15,2022-09-13,Savings,Weekly
+2036,4,2022-06-25,Savings,Per transaction
+2037,2,2021-01-18,Current,Monthly
+2038,1,2023-02-21,Savings,Monthly
+2039,1,2021-12-20,Current,Monthly
+2040,3,2023-04-22,Current,Monthly
+2041,6,2021-12-10,Current,Monthly
+2042,2,2021-10-14,Current,Weekly
+2043,5,2021-11-17,Savings,Monthly
+2044,1,2022-07-30,Current,Monthly
+2045,1,2023-10-14,Business,Monthly
+2046,10,2021-12-30,Business,Monthly
+2047,15,2021-06-19,Current,Monthly
+2048,9,2021-04-19,Savings,Monthly
+2049,2,2022-01-01,Current,Monthly
+2050,1,2021-01-11,Current,Monthly
+2051,7,2021-07-08,Current,Monthly
+2052,10,2022-04-30,Current,Weekly
+2053,14,2022-02-27,Savings,Weekly
+2054,14,2023-11-05,Savings,Monthly
+2055,3,2021-05-05,Savings,Monthly
+2056,4,2021-02-03,Current,Monthly
+2057,5,2022-07-12,Savings,Monthly
+2058,10,2023-12-31,Current,Monthly
+2059,3,2021-08-24,Current,Monthly
+2060,6,2021-04-09,Savings,Monthly
+2061,3,2021-02-06,Savings,Monthly
+2062,11,2022-02-04,Business,Monthly
+2063,12,2022-06-24,Savings,Monthly
+2064,5,2022-09-23,Current,Monthly
+2065,15,2022-02-09,Current,Weekly
+2066,11,2021-05-09,Savings,Weekly
+2067,1,2021-07-12,Savings,Monthly
+2068,15,2023-04-03,Savings,Monthly
+2069,12,2022-08-12,Savings,Monthly
+2070,1,2023-05-06,Business,Per transaction
+2071,3,2021-05-30,Savings,Monthly
+2072,1,2023-01-14,Business,Monthly
+2073,12,2023-06-02,Current,Monthly
+2074,4,2021-06-28,Savings,Weekly
+2075,1,2022-06-09,Current,Monthly
+2076,12,2022-01-09,Current,Monthly
+2077,4,2023-05-29,Business,Monthly
+2078,5,2022-12-19,Current,Monthly
+2079,5,2022-04-13,Savings,Monthly
+2080,11,2022-08-07,Savings,Monthly
+2081,8,2023-12-10,Current,Weekly
+2082,1,2021-08-21,Savings,Monthly
+2083,5,2021-07-05,Current,Monthly
+2084,2,2022-03-22,Current,Monthly
+2085,1,2021-07-15,Current,Monthly
+2086,15,2021-09-21,Current,Weekly
+2087,5,2021-01-01,Business,Monthly
+2088,5,2023-01-27,Savings,Per transaction
+2089,8,2021-02-12,Savings,Monthly
+2090,10,2022-11-02,Current,Monthly
+2091,4,2022-08-21,Savings,Monthly
+2092,5,2021-06-19,Current,Monthly
+2093,5,2023-05-21,Savings,Monthly
+2094,1,2021-02-16,Savings,Monthly
+2095,1,2021-02-26,Savings,Per transaction
+2096,4,2021-12-28,Business,Weekly
+2097,8,2022-08-23,Savings,Monthly
+2098,4,2022-06-12,Savings,Monthly
+2099,13,2021-01-22,Current,Monthly
+2100,5,2021-09-09,Savings,Monthly
+2101,2,2021-06-06,Business,Monthly
+2102,2,2021-11-14,Savings,Monthly
+2103,15,2021-11-29,Current,Per transaction
+2104,1,2021-06-18,Business,Weekly
+2105,1,2021-05-13,Current,Monthly
+2106,5,2021-07-02,Savings,Monthly
+2107,5,2023-01-24,Savings,Monthly
+2108,1,2021-01-30,Current,Per transaction
+2109,2,2021-11-28,Savings,Monthly
+2110,9,2023-10-06,Savings,Monthly
+2111,2,2022-08-18,Current,Per transaction
+2112,2,2021-07-09,Savings,Monthly
+2113,14,2021-09-24,Current,Weekly
+2114,1,2021-11-07,Current,Monthly
+2115,1,2022-02-04,Business,Monthly
+2116,14,2021-10-13,Current,Monthly
+2117,2,2021-05-14,Business,Monthly
+2118,2,2021-06-04,Current,Monthly
+2119,1,2021-06-05,Current,Weekly
+2120,9,2022-07-08,Business,Monthly
+2121,4,2022-02-18,Current,Monthly
+2122,3,2022-02-20,Business,Monthly
+2123,12,2022-08-11,Business,Monthly
+2124,2,2021-02-24,Current,Monthly
+2125,4,2022-08-09,Savings,Per transaction
+2126,1,2022-06-15,Current,Weekly
+2127,9,2022-10-28,Current,Weekly
+2128,13,2021-08-13,Savings,Per transaction
+2129,1,2023-05-29,Savings,Monthly
+2130,1,2021-03-05,Business,Monthly
+2131,1,2021-04-17,Current,Monthly
+2132,1,2021-10-06,Savings,Per transaction
+2133,14,2022-11-24,Current,Weekly
+2134,3,2022-05-02,Current,Per transaction
+2135,2,2021-09-18,Savings,Monthly
+2136,10,2021-01-05,Current,Monthly
+2137,9,2021-06-24,Savings,Weekly
+2138,6,2023-06-16,Current,Monthly
+2139,10,2021-03-02,Savings,Monthly
+2140,9,2021-10-14,Current,Weekly
+2141,15,2022-07-05,Savings,Monthly
+2142,15,2021-03-11,Business,Monthly
+2143,11,2022-04-02,Business,Monthly
+2144,1,2022-08-20,Savings,Monthly
+2145,1,2022-06-19,Current,Monthly
+2146,4,2022-06-11,Current,Monthly
+2147,2,2021-08-26,Current,Weekly
+2148,7,2022-10-30,Savings,Monthly
+2149,10,2021-08-06,Current,Monthly
+2150,1,2021-06-01,Savings,Monthly
+2151,8,2021-01-29,Current,Per transaction
+2152,15,2021-08-23,Savings,Weekly
+2153,2,2021-03-20,Current,Weekly
+2154,8,2021-02-24,Current,Monthly
+2155,2,2023-03-31,Business,Monthly
+2156,12,2021-05-01,Savings,Monthly
+2157,1,2023-06-21,Savings,Monthly
+2158,4,2023-02-24,Current,Weekly
+2159,6,2023-05-21,Savings,Monthly
+2160,7,2021-09-01,Current,Per transaction
+2161,1,2021-12-14,Savings,Monthly
+2162,15,2021-11-09,Current,Weekly
+2163,3,2022-02-15,Savings,Monthly
+2164,5,2021-08-15,Current,Monthly
+2165,1,2021-05-26,Current,Per transaction
+2166,9,2022-03-29,Current,Monthly
+2167,5,2021-11-02,Savings,Monthly
+2168,1,2021-10-23,Current,Monthly
+2169,2,2022-10-23,Savings,Monthly
+2170,1,2021-01-02,Savings,Monthly
+2171,2,2021-12-10,Savings,Monthly
+2172,8,2021-03-29,Current,Monthly
+2173,2,2022-02-27,Current,Monthly
+2174,12,2021-12-22,Current,Monthly
+2175,4,2021-06-08,Current,Weekly
+2176,2,2023-07-12,Current,Monthly
+2177,8,2021-03-16,Savings,Per transaction
+2178,14,2021-01-20,Current,Monthly
+2179,5,2022-10-12,Current,Monthly
+2180,2,2022-09-18,Savings,Monthly
+2181,2,2022-05-20,Business,Monthly
+2182,1,2021-01-31,Current,Weekly
+2183,1,2023-10-29,Savings,Monthly
+2184,10,2021-03-18,Current,Monthly
+2185,12,2022-10-10,Current,Monthly
+2186,4,2021-11-05,Savings,Per transaction
+2187,8,2021-10-01,Current,Monthly
+2188,1,2021-04-29,Business,Monthly
+2189,4,2021-11-20,Current,Monthly
+2190,1,2021-08-30,Savings,Monthly
+2191,2,2021-06-02,Savings,Monthly
+2192,5,2021-09-21,Savings,Weekly
+2193,14,2022-04-10,Business,Monthly
+2194,1,2021-06-27,Current,Weekly
+2195,8,2022-11-23,Current,Monthly
+2196,1,2023-10-16,Current,Monthly
+2197,9,2022-06-01,Savings,Monthly
+2198,8,2022-11-19,Current,Per transaction
+2199,11,2023-05-10,Business,Weekly
+2200,7,2023-02-09,Current,Monthly
+2201,1,2021-01-20,Current,Weekly
+2202,1,2021-01-27,Savings,Monthly
+2203,5,2022-04-30,Current,Monthly
+2204,5,2022-01-22,Business,Monthly
+2205,5,2023-05-06,Savings,Monthly
+2206,10,2023-03-11,Savings,Per transaction
+2207,1,2023-04-29,Current,Monthly
+2208,10,2021-04-05,Current,Monthly
+2209,2,2021-12-16,Current,Monthly
+2210,15,2024-03-05,Savings,Monthly
+2211,15,2022-05-09,Savings,Weekly
+2212,6,2021-01-19,Current,Per transaction
+2213,9,2021-02-06,Current,Monthly
+2214,1,2021-11-16,Current,Monthly
+2215,1,2024-03-17,Savings,Monthly
+2216,2,2021-04-25,Savings,Monthly
+2217,1,2022-06-17,Current,Monthly
+2218,1,2021-01-27,Current,Monthly
+2219,15,2021-01-31,Current,Weekly
+2220,4,2023-01-04,Current,Per transaction
+2221,12,2022-01-09,Current,Monthly
+2222,4,2023-06-26,Current,Monthly
+2223,5,2021-02-27,Business,Monthly
+2224,1,2021-11-18,Savings,Monthly
+2225,1,2022-02-27,Current,Monthly
+2226,4,2021-01-25,Current,Weekly
+2227,11,2023-01-31,Savings,Weekly
+2228,13,2021-05-03,Savings,Weekly
+2229,5,2021-07-26,Current,Monthly
+2230,15,2023-07-12,Current,Monthly
+2231,2,2023-05-05,Current,Monthly
+2232,15,2021-09-18,Current,Monthly
+2233,1,2021-11-22,Current,Per transaction
+2234,4,2021-02-05,Savings,Monthly
+2235,7,2023-06-21,Business,Weekly
+2236,6,2022-12-15,Current,Monthly
+2237,3,2022-05-25,Current,Monthly
+2238,6,2023-01-08,Savings,Monthly
+2239,7,2022-12-05,Savings,Monthly
+2240,6,2021-10-13,Savings,Per transaction
+2241,1,2022-02-26,Savings,Monthly
+2242,14,2022-03-08,Current,Weekly
+2243,7,2023-07-19,Savings,Monthly
+2244,7,2023-04-19,Savings,Per transaction
+2245,5,2023-03-18,Current,Monthly
+2246,2,2022-11-20,Current,Monthly
+2247,2,2021-09-01,Current,Monthly
+2248,1,2022-09-05,Business,Monthly
+2249,1,2023-01-28,Business,Monthly
+2250,1,2021-11-18,Savings,Per transaction
+2251,1,2022-05-20,Business,Per transaction
+2252,13,2021-02-12,Current,Per transaction
+2253,10,2022-02-22,Current,Monthly
+2254,7,2021-04-11,Savings,Monthly
+2255,1,2021-05-09,Current,Monthly
+2256,7,2023-02-02,Current,Weekly
+2257,4,2021-01-09,Business,Monthly
+2258,1,2023-01-18,Current,Monthly
+2259,5,2022-08-07,Savings,Monthly
+2260,3,2021-12-08,Savings,Monthly
+2261,12,2021-08-18,Current,Per transaction
+2262,10,2021-01-30,Current,Monthly
+2263,1,2024-01-20,Savings,Weekly
+2264,8,2023-10-09,Savings,Weekly
+2265,7,2021-05-03,Savings,Monthly
+2266,5,2022-07-17,Current,Monthly
+2267,5,2023-09-10,Business,Per transaction
+2268,15,2021-08-21,Business,Monthly
+2269,14,2022-06-23,Current,Monthly
+2270,14,2022-08-23,Savings,Monthly
+2271,1,2021-07-11,Current,Weekly
+2272,2,2023-07-30,Current,Weekly
+2273,2,2021-03-17,Business,Monthly
+2274,2,2021-04-24,Current,Monthly
+2275,4,2022-11-12,Current,Monthly
+2276,1,2022-07-30,Current,Weekly
+2277,8,2022-11-23,Savings,Monthly
+2278,10,2021-04-11,Current,Weekly
+2279,3,2023-02-05,Current,Weekly
+2280,1,2021-08-14,Current,Monthly
+2281,6,2023-10-25,Savings,Monthly
+2282,6,2022-05-26,Current,Monthly
+2283,13,2023-08-15,Current,Monthly
+2284,12,2022-05-18,Savings,Monthly
+2285,2,2021-01-08,Savings,Monthly
+2286,9,2021-08-27,Business,Monthly
+2287,2,2023-05-16,Current,Monthly
+2288,10,2021-07-23,Current,Monthly
+2289,1,2021-06-18,Current,Monthly
+2290,1,2021-02-20,Business,Per transaction
+2291,12,2021-09-03,Current,Weekly
+2292,12,2023-06-12,Business,Monthly
+2293,11,2021-11-12,Current,Weekly
+2294,1,2021-02-21,Savings,Monthly
+2295,9,2021-06-17,Current,Monthly
+2296,7,2021-06-22,Current,Per transaction
+2297,1,2021-03-02,Current,Weekly
+2298,8,2023-04-07,Savings,Monthly
+2299,13,2021-02-08,Current,Monthly
+2300,1,2021-08-16,Savings,Monthly
+2301,10,2021-02-10,Current,Monthly
+2302,7,2022-07-10,Business,Monthly
+2303,10,2023-05-24,Savings,Monthly
+2304,7,2021-01-09,Current,Monthly
+2305,8,2021-03-25,Savings,Monthly
+2306,10,2021-05-22,Savings,Per transaction
+2307,1,2021-02-21,Current,Monthly
+2308,11,2022-03-28,Savings,Monthly
+2309,9,2021-03-28,Savings,Monthly
+2310,2,2022-10-02,Savings,Monthly
+2311,2,2024-01-12,Savings,Weekly
+2312,1,2021-05-01,Current,Monthly
+2313,6,2021-04-23,Current,Monthly
+2314,6,2021-02-09,Current,Monthly
+2315,6,2022-10-28,Current,Monthly
+2316,7,2021-05-06,Current,Monthly
+2317,1,2022-03-06,Business,Per transaction
+2318,11,2021-02-18,Current,Monthly
+2319,9,2021-02-09,Savings,Monthly
+2320,1,2021-05-28,Current,Monthly
+2321,10,2021-01-17,Savings,Monthly
+2322,5,2024-02-10,Savings,Monthly
+2323,7,2021-02-03,Current,Monthly
+2324,2,2022-01-27,Current,Monthly
+2325,1,2022-04-21,Business,Monthly
+2326,7,2021-12-24,Business,Per transaction
+2327,1,2023-01-29,Savings,Monthly
+2328,13,2022-08-09,Current,Per transaction
+2329,1,2021-04-04,Current,Monthly
+2330,14,2023-03-09,Current,Weekly
+2331,14,2023-10-25,Business,Weekly
+2332,1,2021-07-20,Current,Monthly
+2333,3,2021-02-03,Business,Per transaction
+2334,4,2021-12-05,Current,Monthly
+2335,7,2021-06-21,Savings,Monthly
+2336,9,2023-07-01,Savings,Monthly
+2337,2,2021-03-20,Savings,Monthly
+2338,2,2021-03-28,Current,Monthly
+2339,2,2023-02-11,Current,Monthly
+2340,2,2022-05-12,Business,Monthly
+2341,12,2021-06-01,Current,Monthly
+2342,5,2023-02-03,Current,Monthly
+2343,1,2023-02-07,Current,Monthly
+2344,2,2021-06-23,Business,Monthly
+2345,2,2023-07-12,Business,Monthly
+2346,13,2022-01-16,Savings,Monthly
+2347,5,2022-07-01,Current,Monthly
+2348,8,2023-12-01,Current,Monthly
+2349,5,2023-11-18,Current,Monthly
+2350,4,2022-04-27,Savings,Monthly
+2351,10,2021-09-13,Current,Weekly
+2352,1,2021-03-18,Current,Monthly
+2353,12,2023-11-23,Current,Weekly
+2354,1,2022-04-18,Current,Monthly
+2355,14,2021-02-14,Savings,Weekly
+2356,1,2022-08-07,Savings,Monthly
+2357,5,2021-10-04,Savings,Monthly
+2358,1,2022-06-15,Current,Monthly
+2359,6,2023-01-30,Savings,Monthly
+2360,5,2022-03-11,Current,Monthly
+2361,1,2023-06-18,Savings,Monthly
+2362,7,2022-05-04,Current,Monthly
+2363,4,2021-02-27,Current,Monthly
+2364,15,2021-08-17,Current,Per transaction
+2365,1,2022-11-12,Business,Monthly
+2366,1,2021-03-11,Current,Monthly
+2367,15,2021-12-26,Current,Monthly
+2368,10,2022-04-19,Current,Monthly
+2369,10,2021-03-27,Current,Monthly
+2370,15,2021-02-13,Savings,Per transaction
+2371,2,2021-09-27,Savings,Monthly
+2372,2,2021-11-01,Current,Monthly
+2373,5,2022-05-02,Business,Monthly
+2374,12,2021-02-22,Savings,Monthly
+2375,14,2021-03-26,Savings,Monthly
+2376,1,2021-01-21,Savings,Monthly
+2377,12,2021-01-18,Current,Monthly
+2378,9,2022-09-29,Savings,Per transaction
+2379,2,2022-04-14,Savings,Monthly
+2380,14,2021-11-19,Current,Per transaction
+2381,1,2023-09-05,Current,Monthly
+2382,14,2022-09-25,Savings,Monthly
+2383,4,2021-04-20,Current,Monthly
+2384,11,2021-04-03,Savings,Weekly
+2385,1,2021-08-15,Current,Monthly
+2386,2,2022-09-20,Current,Monthly
+2387,12,2022-06-14,Savings,Per transaction
+2388,13,2022-07-17,Business,Monthly
+2389,12,2021-03-30,Current,Monthly
+2390,1,2021-09-26,Business,Monthly
+2391,1,2021-06-29,Current,Monthly
+2392,10,2022-02-26,Current,Monthly
+2393,1,2022-04-08,Savings,Monthly
+2394,1,2021-10-10,Current,Monthly
+2395,1,2023-07-18,Savings,Per transaction
+2396,3,2022-09-05,Savings,Monthly
+2397,13,2021-06-25,Savings,Weekly
+2398,6,2022-07-25,Current,Monthly
+2399,4,2022-03-20,Savings,Monthly
+2400,5,2021-07-29,Business,Weekly
+2401,4,2021-03-01,Current,Monthly
+2402,1,2022-10-13,Current,Monthly
+2403,8,2022-04-14,Business,Monthly
+2404,1,2021-03-07,Savings,Per transaction
+2405,14,2023-03-30,Savings,Monthly
+2406,11,2021-03-26,Current,Per transaction
+2407,4,2023-01-26,Current,Monthly
+2408,2,2022-05-11,Savings,Monthly
+2409,1,2021-05-06,Current,Per transaction
+2410,4,2022-04-10,Current,Monthly
+2411,5,2023-05-19,Current,Monthly
+2412,1,2021-04-30,Current,Monthly
+2413,1,2021-09-15,Current,Monthly
+2414,11,2021-03-18,Savings,Monthly
+2415,1,2021-05-15,Current,Monthly
+2416,1,2021-02-15,Current,Per transaction
+2417,5,2022-11-10,Savings,Per transaction
+2418,5,2022-05-24,Business,Monthly
+2419,12,2023-07-06,Current,Monthly
+2420,9,2023-04-17,Current,Weekly
+2421,1,2023-11-03,Current,Per transaction
+2422,8,2023-05-19,Current,Monthly
+2423,1,2022-01-16,Current,Monthly
+2424,1,2021-01-30,Current,Monthly
+2425,5,2021-03-22,Current,Monthly
+2426,1,2022-07-30,Business,Monthly
+2427,5,2021-07-27,Savings,Weekly
+2428,14,2021-07-06,Current,Monthly
+2429,15,2021-12-20,Savings,Monthly
+2430,2,2021-08-08,Current,Weekly
+2431,2,2022-08-13,Current,Monthly
+2432,14,2021-08-28,Business,Monthly
+2433,9,2022-11-29,Current,Weekly
+2434,2,2021-11-24,Current,Monthly
+2435,2,2021-07-28,Business,Monthly
+2436,10,2021-07-17,Current,Monthly
+2437,4,2021-09-14,Savings,Monthly
+2438,1,2022-04-13,Savings,Monthly
+2439,10,2023-12-09,Savings,Monthly
+2440,1,2023-06-28,Business,Monthly
+2441,15,2022-06-14,Savings,Weekly
+2442,4,2023-08-31,Savings,Monthly
+2443,1,2022-10-16,Current,Monthly
+2444,12,2021-03-27,Current,Per transaction
+2445,1,2021-01-27,Savings,Weekly
+2446,1,2023-06-08,Business,Monthly
+2447,15,2022-12-04,Current,Monthly
+2448,9,2021-06-12,Business,Weekly
+2449,1,2023-10-23,Current,Monthly
+2450,12,2021-12-07,Business,Per transaction
+2451,14,2021-12-03,Current,Monthly
+2452,1,2021-04-26,Savings,Weekly
+2453,2,2021-07-22,Business,Monthly
+2454,1,2021-08-27,Current,Monthly
+2455,9,2021-04-18,Current,Weekly
+2456,9,2021-09-06,Current,Monthly
+2457,15,2021-06-15,Current,Monthly
+2458,7,2021-02-21,Current,Monthly
+2459,13,2021-09-20,Business,Monthly
+2460,1,2023-06-13,Current,Monthly
+2461,5,2023-03-01,Current,Monthly
+2462,1,2022-07-10,Current,Monthly
+2463,4,2022-06-12,Business,Weekly
+2464,14,2022-09-29,Business,Monthly
+2465,14,2022-05-03,Current,Monthly
+2466,1,2022-12-02,Current,Weekly
+2467,1,2021-03-02,Savings,Monthly
+2468,2,2023-10-18,Current,Monthly
+2469,4,2023-06-09,Savings,Monthly
+2470,1,2023-05-02,Business,Monthly
+2471,1,2021-07-30,Current,Monthly
+2472,15,2021-03-19,Business,Monthly
+2473,9,2022-04-11,Savings,Monthly
+2474,7,2023-02-16,Current,Monthly
+2475,2,2022-03-10,Business,Monthly
+2476,12,2022-11-06,Current,Monthly
+2477,14,2021-11-27,Savings,Monthly
+2478,12,2021-01-03,Savings,Monthly
+2479,3,2021-12-03,Current,Monthly
+2480,1,2021-04-01,Savings,Monthly
+2481,2,2021-04-09,Current,Monthly
+2482,13,2021-11-13,Savings,Monthly
+2483,11,2021-04-07,Current,Monthly
+2484,7,2022-01-02,Current,Weekly
+2485,1,2021-08-14,Savings,Monthly
+2486,14,2022-01-16,Current,Monthly
+2487,10,2022-01-15,Current,Monthly
+2488,2,2021-10-11,Current,Monthly
+2489,7,2022-02-05,Savings,Weekly
+2490,1,2021-07-17,Current,Monthly
+2491,13,2023-02-06,Current,Monthly
+2492,1,2023-03-18,Savings,Monthly
+2493,2,2022-01-21,Savings,Monthly
+2494,5,2021-04-07,Savings,Monthly
+2495,2,2021-10-01,Current,Monthly
+2496,4,2022-07-07,Current,Monthly
+2497,13,2022-02-05,Business,Weekly
+2498,8,2021-03-28,Current,Per transaction
+2499,4,2024-04-28,Savings,Monthly
+2500,3,2023-05-09,Current,Monthly
+2501,7,2021-11-26,Current,Monthly
+2502,11,2021-10-18,Savings,Monthly
+2503,12,2021-07-02,Savings,Monthly
+2504,13,2021-06-20,Savings,Monthly
+2505,5,2022-04-13,Savings,Monthly
+2506,9,2022-06-09,Current,Monthly
+2507,10,2023-07-16,Savings,Weekly
+2508,1,2023-04-04,Savings,Per transaction
+2509,14,2023-12-03,Current,Monthly
+2510,9,2023-12-02,Current,Monthly
+2511,13,2021-10-30,Savings,Monthly
+2512,6,2021-08-18,Savings,Monthly
+2513,1,2021-10-23,Current,Per transaction
+2514,6,2021-01-22,Business,Monthly
+2515,11,2023-12-23,Current,Monthly
+2516,1,2022-01-26,Current,Weekly
+2517,1,2021-10-05,Business,Monthly
+2518,7,2023-07-10,Savings,Per transaction
+2519,10,2022-09-09,Savings,Monthly
+2520,2,2021-08-08,Current,Weekly
+2521,2,2022-05-11,Savings,Monthly
+2522,9,2022-12-11,Business,Monthly
+2523,10,2023-03-10,Current,Weekly
+2524,3,2022-07-16,Savings,Monthly
+2525,2,2021-03-03,Current,Per transaction
+2526,1,2023-02-03,Savings,Weekly
+2527,14,2021-04-14,Current,Weekly
+2528,3,2021-03-16,Business,Monthly
+2529,12,2022-12-27,Business,Monthly
+2530,1,2023-04-04,Current,Monthly
+2531,6,2023-04-15,Current,Monthly
+2532,3,2021-08-28,Current,Monthly
+2533,1,2021-08-09,Savings,Per transaction
+2534,10,2021-11-13,Savings,Monthly
+2535,3,2023-01-17,Savings,Monthly
+2536,15,2021-01-17,Savings,Monthly
+2537,1,2021-04-20,Savings,Monthly
+2538,14,2021-06-24,Current,Weekly
+2539,7,2023-01-31,Savings,Monthly
+2540,1,2023-12-12,Savings,Monthly
+2541,8,2021-06-12,Current,Monthly
+2542,9,2021-10-05,Current,Monthly
+2543,11,2024-04-24,Current,Per transaction
+2544,8,2021-03-19,Current,Monthly
+2545,1,2022-05-19,Savings,Monthly
+2546,7,2021-08-05,Savings,Per transaction
+2547,1,2024-03-29,Current,Monthly
+2548,1,2021-01-24,Savings,Monthly
+2549,12,2023-11-18,Savings,Monthly
+2550,5,2022-12-07,Current,Monthly
+2551,4,2021-02-16,Savings,Monthly
+2552,12,2021-08-18,Current,Monthly
+2553,9,2022-05-28,Business,Per transaction
+2554,3,2022-06-04,Current,Monthly
+2555,6,2021-11-30,Business,Monthly
+2556,1,2021-09-24,Current,Monthly
+2557,1,2021-07-19,Current,Monthly
+2558,2,2022-01-03,Savings,Monthly
+2559,3,2023-09-14,Current,Monthly
+2560,12,2021-06-22,Current,Per transaction
+2561,13,2023-07-25,Savings,Monthly
+2562,4,2023-02-09,Savings,Monthly
+2563,2,2022-12-30,Savings,Weekly
+2564,5,2021-09-28,Current,Weekly
+2565,12,2021-12-15,Current,Monthly
+2566,4,2022-06-21,Savings,Monthly
+2567,2,2023-01-11,Current,Per transaction
+2568,14,2021-01-17,Savings,Monthly
+2569,2,2022-04-25,Current,Monthly
+2570,5,2022-07-06,Savings,Monthly
+2571,14,2021-05-06,Savings,Monthly
+2572,2,2022-11-27,Current,Monthly
+2573,15,2021-10-15,Current,Monthly
+2574,11,2023-03-12,Business,Monthly
+2575,2,2022-01-12,Current,Monthly
+2576,6,2021-05-12,Current,Monthly
+2577,5,2021-10-09,Current,Weekly
+2578,1,2021-12-12,Savings,Monthly
+2579,1,2023-01-09,Savings,Monthly
+2580,9,2021-12-26,Savings,Monthly
+2581,13,2022-04-03,Current,Monthly
+2582,1,2021-12-01,Savings,Monthly
+2583,5,2021-11-02,Current,Weekly
+2584,8,2023-07-10,Savings,Monthly
+2585,3,2023-03-12,Savings,Monthly
+2586,7,2022-01-21,Current,Monthly
+2587,11,2022-04-10,Current,Per transaction
+2588,1,2021-01-16,Current,Weekly
+2589,1,2022-08-03,Current,Monthly
+2590,12,2022-12-21,Savings,Monthly
+2591,1,2021-06-03,Business,Monthly
+2592,1,2022-04-05,Current,Monthly
+2593,12,2021-08-16,Savings,Monthly
+2594,2,2022-05-29,Savings,Per transaction
+2595,8,2021-03-11,Current,Monthly
+2596,3,2022-12-22,Current,Monthly
+2597,14,2021-04-03,Current,Monthly
+2598,9,2023-06-22,Current,Monthly
+2599,12,2021-03-12,Savings,Weekly
+2600,3,2022-04-01,Savings,Weekly
+2601,1,2021-03-29,Savings,Monthly
+2602,6,2022-02-01,Savings,Monthly
+2603,6,2021-10-06,Savings,Monthly
+2604,5,2023-12-09,Current,Per transaction
+2605,2,2022-11-09,Current,Monthly
+2606,10,2021-05-26,Current,Weekly
+2607,10,2023-04-24,Current,Weekly
+2608,4,2021-05-07,Current,Per transaction
+2609,1,2022-07-02,Savings,Weekly
+2610,9,2022-08-29,Savings,Monthly
+2611,10,2022-09-24,Savings,Monthly
+2612,14,2023-04-13,Business,Monthly
+2613,7,2021-01-08,Savings,Weekly
+2614,6,2021-09-09,Current,Monthly
+2615,2,2021-08-20,Business,Per transaction
+2616,12,2022-11-18,Current,Monthly
+2617,2,2021-07-07,Savings,Monthly
+2618,14,2021-09-23,Current,Monthly
+2619,13,2022-09-14,Savings,Weekly
+2620,8,2021-10-22,Savings,Monthly
+2621,1,2021-07-19,Savings,Monthly
+2622,1,2022-08-03,Current,Monthly
+2623,9,2021-03-28,Current,Monthly
+2624,1,2022-09-20,Current,Monthly
+2625,10,2022-05-27,Current,Monthly
+2626,14,2023-06-21,Current,Monthly
+2627,3,2022-07-05,Current,Weekly
+2628,10,2021-02-23,Savings,Monthly
+2629,6,2022-07-01,Current,Monthly
+2630,1,2021-04-14,Current,Monthly
+2631,7,2021-03-27,Business,Monthly
+2632,11,2021-07-13,Savings,Per transaction
+2633,15,2021-12-19,Current,Weekly
+2634,2,2023-09-12,Current,Monthly
+2635,6,2023-03-19,Savings,Monthly
+2636,1,2022-09-24,Current,Monthly
+2637,15,2023-07-18,Current,Weekly
+2638,4,2021-12-11,Current,Monthly
+2639,3,2021-01-04,Current,Monthly
+2640,2,2021-02-26,Current,Monthly
+2641,7,2022-12-27,Savings,Monthly
+2642,4,2021-06-12,Savings,Monthly
+2643,2,2023-11-28,Business,Monthly
+2644,6,2021-04-16,Current,Monthly
+2645,5,2021-08-25,Savings,Weekly
+2646,6,2021-08-07,Business,Monthly
+2647,14,2021-04-16,Savings,Per transaction
+2648,8,2022-12-13,Business,Monthly
+2649,1,2023-01-04,Current,Monthly
+2650,1,2021-09-02,Current,Monthly
+2651,1,2021-11-18,Current,Monthly
+2652,8,2022-04-21,Current,Monthly
+2653,7,2021-07-17,Savings,Per transaction
+2654,8,2021-02-10,Business,Monthly
+2655,1,2022-01-12,Current,Per transaction
+2656,4,2021-12-01,Savings,Monthly
+2657,11,2021-02-03,Savings,Weekly
+2658,10,2023-09-07,Business,Monthly
+2659,7,2022-05-05,Savings,Monthly
+2660,2,2023-01-22,Business,Monthly
+2661,12,2023-06-18,Current,Monthly
+2662,14,2021-02-05,Savings,Monthly
+2663,5,2021-01-10,Current,Monthly
+2664,14,2023-11-29,Savings,Monthly
+2665,12,2022-01-05,Current,Weekly
+2666,1,2022-04-09,Current,Weekly
+2667,5,2021-06-21,Current,Monthly
+2668,1,2022-10-04,Business,Per transaction
+2669,1,2022-12-21,Current,Weekly
+2670,1,2022-01-30,Current,Monthly
+2671,5,2022-01-09,Business,Per transaction
+2672,4,2022-04-11,Current,Monthly
+2673,2,2022-04-07,Savings,Monthly
+2674,1,2023-06-01,Savings,Monthly
+2675,1,2021-07-22,Current,Monthly
+2676,4,2022-06-17,Current,Monthly
+2677,11,2023-01-10,Savings,Weekly
+2678,1,2023-03-21,Savings,Weekly
+2679,14,2021-10-10,Current,Weekly
+2680,1,2021-11-28,Current,Monthly
+2681,1,2022-05-15,Current,Monthly
+2682,1,2023-07-08,Current,Monthly
+2683,1,2022-11-12,Savings,Monthly
+2684,8,2022-11-04,Current,Monthly
+2685,8,2021-01-17,Current,Monthly
+2686,2,2021-10-16,Current,Monthly
+2687,4,2023-09-09,Current,Weekly
+2688,9,2022-12-15,Current,Monthly
+2689,7,2022-08-23,Current,Monthly
+2690,6,2021-09-20,Business,Monthly
+2691,12,2021-05-07,Current,Per transaction
+2692,14,2021-05-15,Business,Monthly
+2693,10,2023-01-25,Current,Weekly
+2694,14,2021-05-29,Savings,Monthly
+2695,13,2022-05-05,Business,Weekly
+2696,5,2021-03-31,Business,Monthly
+2697,1,2021-05-23,Current,Monthly
+2698,7,2022-06-27,Savings,Monthly
+2699,8,2022-07-31,Savings,Monthly
+2700,14,2022-05-12,Current,Weekly
+2701,4,2021-03-28,Current,Monthly
+2702,4,2021-07-27,Savings,Per transaction
+2703,2,2021-04-09,Savings,Per transaction
+2704,1,2022-03-27,Savings,Monthly
+2705,14,2022-07-15,Current,Monthly
+2706,5,2021-07-29,Savings,Monthly
+2707,3,2023-12-01,Business,Monthly
+2708,5,2022-05-15,Business,Monthly
+2709,4,2021-05-08,Current,Monthly
+2710,9,2022-02-24,Current,Monthly
+2711,1,2021-10-11,Savings,Weekly
+2712,4,2023-02-14,Savings,Monthly
+2713,7,2021-10-24,Current,Monthly
+2714,12,2021-10-24,Savings,Monthly
+2715,15,2022-11-25,Savings,Monthly
+2716,1,2021-11-03,Current,Monthly
+2717,1,2022-03-30,Current,Monthly
+2718,5,2021-11-06,Current,Per transaction
+2719,2,2021-04-28,Business,Monthly
+2720,7,2021-12-14,Current,Monthly
+2721,9,2023-03-30,Current,Monthly
+2722,2,2023-01-25,Savings,Weekly
+2723,8,2021-05-12,Current,Weekly
+2724,5,2022-07-04,Current,Monthly
+2725,15,2023-08-08,Business,Monthly
+2726,1,2023-01-04,Current,Monthly
+2727,4,2024-04-18,Current,Monthly
+2728,9,2023-06-02,Current,Monthly
+2729,10,2021-05-14,Current,Per transaction
+2730,2,2023-02-24,Current,Monthly
+2731,9,2021-01-13,Savings,Monthly
+2732,14,2021-09-11,Current,Monthly
+2733,1,2021-09-25,Current,Monthly
+2734,1,2021-02-04,Savings,Monthly
+2735,4,2021-07-24,Current,Weekly
+2736,12,2022-06-16,Current,Monthly
+2737,12,2022-03-30,Current,Monthly
+2738,6,2021-10-24,Current,Monthly
+2739,7,2021-05-25,Current,Monthly
+2740,3,2021-01-31,Current,Monthly
+2741,7,2023-10-03,Current,Weekly
+2742,2,2021-10-30,Savings,Monthly
+2743,6,2021-02-15,Current,Monthly
+2744,7,2022-08-11,Savings,Monthly
+2745,8,2022-02-17,Savings,Monthly
+2746,2,2021-04-25,Current,Monthly
+2747,1,2021-01-04,Savings,Monthly
+2748,1,2021-09-30,Current,Weekly
+2749,6,2021-11-06,Current,Monthly
+2750,5,2022-10-20,Savings,Monthly
+2751,8,2021-02-18,Current,Monthly
+2752,14,2022-03-20,Current,Weekly
+2753,11,2021-02-05,Savings,Monthly
+2754,7,2022-01-20,Current,Monthly
+2755,4,2021-12-02,Business,Monthly
+2756,2,2022-08-06,Current,Monthly
+2757,4,2022-12-09,Business,Monthly
+2758,3,2021-02-23,Current,Monthly
+2759,1,2022-01-22,Current,Weekly
+2760,5,2022-04-06,Current,Weekly
+2761,5,2023-08-17,Current,Monthly
+2762,6,2023-12-26,Current,Monthly
+2763,2,2022-10-06,Savings,Monthly
+2764,6,2021-12-06,Savings,Monthly
+2765,2,2021-10-14,Current,Monthly
+2766,4,2022-01-28,Savings,Monthly
+2767,7,2022-10-04,Savings,Monthly
+2768,1,2021-12-27,Current,Monthly
+2769,4,2022-01-17,Current,Monthly
+2770,9,2022-05-24,Business,Monthly
+2771,15,2022-02-18,Current,Monthly
+2772,5,2022-03-09,Business,Monthly
+2773,1,2021-04-12,Current,Monthly
+2774,5,2021-10-28,Current,Per transaction
+2775,6,2021-04-07,Current,Monthly
+2776,10,2023-02-14,Current,Monthly
+2777,2,2023-01-28,Current,Weekly
+2778,8,2021-10-17,Current,Monthly
+2779,5,2023-04-10,Current,Weekly
+2780,5,2021-08-28,Savings,Monthly
+2781,5,2021-07-07,Current,Weekly
+2782,1,2022-02-09,Savings,Weekly
+2783,11,2021-04-04,Current,Monthly
+2784,1,2021-02-08,Current,Monthly
+2785,9,2022-02-28,Savings,Per transaction
+2786,6,2021-07-18,Current,Monthly
+2787,5,2021-06-21,Business,Monthly
+2788,6,2021-01-26,Savings,Monthly
+2789,4,2022-10-04,Current,Monthly
+2790,6,2022-01-13,Savings,Monthly
+2791,2,2022-03-03,Current,Monthly
+2792,2,2021-01-27,Current,Weekly
+2793,5,2023-02-25,Current,Weekly
+2794,8,2022-09-10,Savings,Monthly
+2795,1,2024-04-20,Business,Monthly
+2796,2,2021-02-27,Current,Monthly
+2797,5,2023-05-03,Current,Monthly
+2798,3,2021-09-30,Savings,Weekly
+2799,12,2022-03-01,Current,Monthly
+2800,4,2021-07-05,Savings,Monthly
+2801,9,2022-10-03,Savings,Monthly
+2802,6,2021-07-13,Current,Monthly
+2803,2,2023-03-07,Business,Per transaction
+2804,3,2021-03-20,Savings,Monthly
+2805,3,2021-08-20,Savings,Weekly
+2806,5,2022-04-08,Savings,Monthly
+2807,2,2022-08-07,Current,Weekly
+2808,14,2021-02-06,Business,Monthly
+2809,4,2022-12-21,Business,Monthly
+2810,5,2023-05-08,Current,Monthly
+2811,1,2021-09-09,Savings,Monthly
+2812,4,2021-08-12,Business,Monthly
+2813,9,2021-03-27,Current,Monthly
+2814,3,2021-03-23,Savings,Per transaction
+2815,1,2024-02-17,Savings,Monthly
+2816,5,2021-07-15,Savings,Monthly
+2817,4,2022-10-04,Current,Monthly
+2818,4,2021-05-26,Business,Weekly
+2819,13,2021-04-09,Current,Weekly
+2820,12,2022-04-03,Current,Monthly
+2821,1,2021-02-15,Current,Monthly
+2822,2,2021-01-11,Current,Weekly
+2823,10,2023-05-16,Current,Monthly
+2824,10,2024-06-01,Current,Weekly
+2825,1,2021-07-27,Savings,Monthly
+2826,15,2021-06-12,Business,Monthly
+2827,15,2021-11-04,Savings,Monthly
+2828,8,2021-04-06,Savings,Monthly
+2829,1,2021-04-18,Savings,Monthly
+2830,10,2023-08-30,Current,Monthly
+2831,13,2021-09-17,Business,Monthly
+2832,2,2023-02-06,Business,Monthly
+2833,14,2023-03-30,Current,Monthly
+2834,11,2023-06-21,Current,Monthly
+2835,7,2021-08-13,Savings,Monthly
+2836,2,2022-12-24,Current,Weekly
+2837,1,2022-06-02,Current,Monthly
+2838,1,2023-03-10,Savings,Monthly
+2839,8,2022-11-10,Current,Weekly
+2840,3,2021-01-01,Current,Monthly
+2841,5,2021-01-02,Business,Monthly
+2842,2,2022-07-09,Current,Monthly
+2843,4,2023-04-02,Savings,Per transaction
+2844,2,2021-03-22,Current,Monthly
+2845,2,2022-02-16,Current,Weekly
+2846,5,2023-04-03,Business,Monthly
+2847,1,2021-01-01,Current,Per transaction
+2848,4,2022-02-03,Savings,Monthly
+2849,10,2024-02-13,Current,Monthly
+2850,4,2023-03-17,Savings,Monthly
+2851,1,2021-05-27,Current,Monthly
+2852,4,2023-01-11,Current,Monthly
+2853,6,2021-06-05,Savings,Weekly
+2854,5,2022-04-24,Current,Weekly
+2855,7,2022-02-20,Current,Monthly
+2856,1,2021-07-21,Current,Weekly
+2857,10,2022-04-21,Current,Weekly
+2858,8,2024-03-07,Savings,Per transaction
+2859,1,2021-11-25,Savings,Weekly
+2860,2,2021-09-17,Current,Monthly
+2861,1,2021-05-31,Current,Weekly
+2862,2,2022-12-13,Current,Monthly
+2863,6,2021-04-17,Savings,Monthly
+2864,11,2022-10-08,Business,Monthly
+2865,14,2021-11-23,Business,Weekly
+2866,4,2022-11-26,Business,Monthly
+2867,1,2021-05-24,Savings,Weekly
+2868,2,2021-02-14,Savings,Weekly
+2869,10,2022-08-19,Current,Weekly
+2870,1,2023-04-12,Savings,Monthly
+2871,4,2021-02-22,Current,Monthly
+2872,11,2021-11-10,Savings,Monthly
+2873,2,2022-04-10,Current,Weekly
+2874,7,2023-05-02,Current,Monthly
+2875,6,2021-04-24,Business,Per transaction
+2876,9,2022-02-17,Savings,Monthly
+2877,4,2021-11-10,Savings,Monthly
+2878,12,2021-04-17,Savings,Monthly
+2879,1,2022-02-28,Savings,Monthly
+2880,5,2021-03-12,Savings,Monthly
+2881,4,2024-06-18,Current,Monthly
+2882,2,2023-03-18,Savings,Monthly
+2883,2,2021-05-26,Savings,Per transaction
+2884,7,2021-01-29,Business,Monthly
+2885,6,2022-09-10,Business,Monthly
+2886,14,2023-12-31,Current,Monthly
+2887,12,2021-07-03,Business,Monthly
+2888,1,2022-05-28,Current,Monthly
+2889,6,2023-06-04,Savings,Monthly
+2890,14,2021-03-10,Current,Weekly
+2891,3,2023-07-23,Current,Monthly
+2892,8,2021-09-25,Current,Monthly
+2893,5,2021-01-10,Savings,Monthly
+2894,1,2021-05-25,Current,Per transaction
+2895,5,2022-02-21,Business,Weekly
+2896,12,2021-08-17,Savings,Monthly
+2897,5,2021-07-18,Savings,Monthly
+2898,1,2021-11-26,Current,Monthly
+2899,2,2021-09-07,Business,Per transaction
+2900,10,2022-01-12,Savings,Weekly

@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" width="1200" height="760" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="many" viewBox="0 0 12 12" refX="11" refY="6" markerWidth="12" markerHeight="12" orient="auto">
+      <path d="M0,0 L11,6 L0,12 M11,0 L11,12" fill="none" stroke="#3b4a5a" stroke-width="1.4"/>
+    </marker>
+    <style>
+      .box{fill:#ffffff;stroke:#3b4a5a;stroke-width:1.6}
+      .hdr{fill:#1f4e79}
+      .link .hdr{fill:#b5651d}
+      .ttl{fill:#fff;font-size:14px;font-weight:700}
+      .rows{fill:#5b6b7b;font-size:11px}
+      .col{fill:#222;font-size:13px}
+      .pk{fill:#1f4e79;font-size:13px;font-weight:700}
+      .fk{fill:#b5651d;font-size:13px;font-weight:700}
+      .edge{stroke:#3b4a5a;stroke-width:1.8;fill:none}
+      .lbl{fill:#3b4a5a;font-size:12px;font-weight:700}
+      .lblbg{fill:#f4f6f8}
+    </style>
+  </defs>
+  <rect width="1200" height="760" fill="#f4f6f8"/>
+  <text x="40" y="44" font-size="24" font-weight="700" fill="#1a2733">Mlima Bank – how the seven tables join</text>
+  <text x="40" y="68" font-size="13" fill="#5b6b7b">PK = primary key (blue) · FK = foreign key (orange) · row counts under each name</text>
+
+  <!-- edges (drawn first) -->
+  <!-- counties -> customers -->
+  <path class="edge" d="M300,175 L300,300" marker-end="url(#many)"/>
+  <rect class="lblbg" x="308" y="226" width="78" height="18"/><text class="lbl" x="312" y="239">county_id</text>
+  <!-- counties -> accounts -->
+  <path class="edge" d="M400,140 L890,140 L890,300" marker-end="url(#many)"/>
+  <rect class="lblbg" x="580" y="122" width="78" height="18"/><text class="lbl" x="584" y="135">county_id</text>
+  <!-- customers -> holders -->
+  <path class="edge" d="M400,380 L510,380" marker-end="url(#many)"/>
+  <rect class="lblbg" x="410" y="356" width="90" height="18"/><text class="lbl" x="414" y="369">customer_id</text>
+  <!-- accounts -> holders -->
+  <path class="edge" d="M790,400 L702,400" marker-end="url(#many)"/>
+  <rect class="lblbg" x="706" y="376" width="82" height="18"/><text class="lbl" x="710" y="389">account_id</text>
+  <!-- holders -> cards -->
+  <path class="edge" d="M605,465 L605,560" marker-end="url(#many)"/>
+  <rect class="lblbg" x="613" y="503" width="76" height="18"/><text class="lbl" x="617" y="516">holder_id</text>
+  <!-- accounts -> transactions -->
+  <path class="edge" d="M950,465 L950,500 L1040,500 L1040,560" marker-end="url(#many)"/>
+  <rect class="lblbg" x="958" y="507" width="82" height="18"/><text class="lbl" x="962" y="520">account_id</text>
+  <!-- accounts -> loans -->
+  <path class="edge" d="M850,465 L850,560" marker-end="url(#many)"/>
+  <rect class="lblbg" x="858" y="503" width="82" height="18"/><text class="lbl" x="862" y="516">account_id</text>
+
+  <!-- counties -->
+  <g>
+    <rect class="box" x="200" y="100" width="200" height="75" rx="6"/>
+    <rect class="hdr" x="200" y="100" width="200" height="30" rx="6"/><rect class="hdr" x="200" y="118" width="200" height="12"/>
+    <text class="ttl" x="212" y="121">bank_counties</text><text x="392" y="121" fill="#cfe0ef" font-size="10" text-anchor="end">15 rows</text>
+    <text class="pk" x="212" y="150">PK county_id</text>
+    <text class="col" x="212" y="167">county, region, population …</text>
+  </g>
+
+  <!-- customers -->
+  <g>
+    <rect class="box" x="200" y="300" width="200" height="110" rx="6"/>
+    <rect class="hdr" x="200" y="300" width="200" height="30" rx="6"/><rect class="hdr" x="200" y="318" width="200" height="12"/>
+    <text class="ttl" x="212" y="321">bank_customers</text><text x="392" y="321" fill="#cfe0ef" font-size="10" text-anchor="end">1,034 rows</text>
+    <text class="pk" x="212" y="350">PK customer_id</text>
+    <text class="col" x="212" y="368">full_name, gender, birth_year</text>
+    <text class="fk" x="212" y="386">FK county_id</text>
+    <text class="rows" x="212" y="402">(home county)</text>
+  </g>
+
+  <!-- account_holders (link) -->
+  <g class="link">
+    <rect class="box" x="510" y="300" width="190" height="165" rx="6" style="stroke:#b5651d;stroke-width:2.4"/>
+    <rect class="hdr" x="510" y="300" width="190" height="30" rx="6"/><rect class="hdr" x="510" y="318" width="190" height="12"/>
+    <text class="ttl" x="522" y="321">bank_account_holders</text>
+    <text class="pk" x="522" y="352">PK holder_id</text>
+    <text class="fk" x="522" y="371">FK account_id</text>
+    <text class="fk" x="522" y="390">FK customer_id</text>
+    <text class="col" x="522" y="409">holder_type</text>
+    <text class="rows" x="522" y="427">OWNER / JOINT</text>
+    <text class="rows" x="522" y="444">1,034 rows · LINK TABLE</text>
+    <text class="rows" x="522" y="458">(many-to-many bridge)</text>
+  </g>
+
+  <!-- accounts -->
+  <g>
+    <rect class="box" x="790" y="300" width="210" height="165" rx="6"/>
+    <rect class="hdr" x="790" y="300" width="210" height="30" rx="6"/><rect class="hdr" x="790" y="318" width="210" height="12"/>
+    <text class="ttl" x="802" y="321">bank_accounts</text><text x="992" y="321" fill="#cfe0ef" font-size="10" text-anchor="end">900 rows</text>
+    <text class="pk" x="802" y="352">PK account_id</text>
+    <text class="fk" x="802" y="371">FK county_id</text>
+    <text class="rows" x="802" y="387">(branch county)</text>
+    <text class="col" x="802" y="407">opened_date, account_type</text>
+    <text class="col" x="802" y="425">statement_frequency</text>
+  </g>
+  
+
+  <!-- cards -->
+  <g>
+    <rect class="box" x="510" y="560" width="190" height="110" rx="6"/>
+    <rect class="hdr" x="510" y="560" width="190" height="30" rx="6"/><rect class="hdr" x="510" y="578" width="190" height="12"/>
+    <text class="ttl" x="522" y="581">bank_cards</text><text x="692" y="581" fill="#cfe0ef" font-size="10" text-anchor="end">232 rows</text>
+    <text class="pk" x="522" y="610">PK card_id</text>
+    <text class="fk" x="522" y="629">FK holder_id</text>
+    <text class="col" x="522" y="648">card_type, issued_date</text>
+    <text class="rows" x="522" y="664">one card per holder</text>
+  </g>
+
+  <!-- loans -->
+  <g>
+    <rect class="box" x="760" y="560" width="190" height="110" rx="6"/>
+    <rect class="hdr" x="760" y="560" width="190" height="30" rx="6"/><rect class="hdr" x="760" y="578" width="190" height="12"/>
+    <text class="ttl" x="772" y="581">bank_loans</text><text x="942" y="581" fill="#cfe0ef" font-size="10" text-anchor="end">296 rows</text>
+    <text class="pk" x="772" y="610">PK loan_id</text>
+    <text class="fk" x="772" y="629">FK account_id</text>
+    <text class="col" x="772" y="648">amount, duration, status</text>
+  </g>
+
+  <!-- transactions -->
+  <g>
+    <rect class="box" x="960" y="560" width="220" height="130" rx="6"/>
+    <rect class="hdr" x="960" y="560" width="220" height="30" rx="6"/><rect class="hdr" x="960" y="578" width="220" height="12"/>
+    <text class="ttl" x="972" y="581">bank_transactions</text><text x="1172" y="581" fill="#cfe0ef" font-size="10" text-anchor="end">102,880 rows</text>
+    <text class="pk" x="972" y="610">PK transaction_id</text>
+    <text class="fk" x="972" y="629">FK account_id</text>
+    <text class="col" x="972" y="648">txn_date, txn_type, channel</text>
+    <text class="col" x="972" y="666">purpose, amount_kes</text>
+    <text class="col" x="972" y="684">balance_kes</text>
+  </g>
+
+  <!-- notes -->
+  <g>
+    <rect x="40" y="470" width="420" height="250" rx="6" fill="#fff8ef" stroke="#e3c9a8"/>
+    <text x="56" y="496" font-size="14" font-weight="700" fill="#1a2733">Reading the joins</text>
+    <text x="56" y="522" font-size="12.5" fill="#333">• customers ↔ accounts is many-to-many (joint accounts),</text>
+    <text x="56" y="540" font-size="12.5" fill="#333">   so they meet only through bank_account_holders.</text>
+    <text x="56" y="564" font-size="12.5" fill="#333">• Cardholder's age: bank_cards → bank_account_holders</text>
+    <text x="56" y="582" font-size="12.5" fill="#333">   (holder_id) → bank_customers (customer_id) → birth_year.</text>
+    <text x="56" y="606" font-size="12.5" fill="#333">• Card per account: bank_cards → bank_account_holders → account_id.</text>
+    <text x="56" y="630" font-size="12.5" fill="#333">• Avoid double-counting: when joining transactions to</text>
+    <text x="56" y="648" font-size="12.5" fill="#333">   holders, filter holder_type = 'OWNER' (one row per account),</text>
+    <text x="56" y="666" font-size="12.5" fill="#333">   or aggregate transactions first, then join.</text>
+    <text x="56" y="690" font-size="12.5" fill="#333">• Two different county_ids: customer's home county vs</text>
+    <text x="56" y="708" font-size="12.5" fill="#333">   account's branch county.</text>
+  </g>
+</svg>

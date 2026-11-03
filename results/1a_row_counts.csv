@@ -1,0 +1,8 @@
+table_name,row_count
+bank_counties,15
+bank_customers,1034
+bank_accounts,900
+bank_account_holders,1034
+bank_transactions,102880
+bank_loans,296
+bank_cards,232

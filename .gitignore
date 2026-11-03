@@ -1,0 +1,4 @@
+# Rebuilt by scripts/build_db.py
+*.db
+__pycache__/
+.DS_Store

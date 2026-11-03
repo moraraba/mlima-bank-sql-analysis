@@ -1,0 +1,10 @@
+account_type,statement_frequency,accounts
+Business,Monthly,96
+Business,Per transaction,15
+Business,Weekly,14
+Current,Monthly,329
+Current,Per transaction,40
+Current,Weekly,92
+Savings,Monthly,233
+Savings,Per transaction,34
+Savings,Weekly,47
