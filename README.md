@@ -8,43 +8,6 @@ SQL analysis of a (fictional) Kenyan retail bank's core-banking extract: seven t
 > → Offer cards to the top 10% first and salary-backed loans second, starting in Nairobi and Kiambu.
 > One-page summary: [`report/summary_for_head_of_retail.md`](report/summary_for_head_of_retail.md)
 
----
-
-## Repository layout
-
-```
-mlima-bank-sql-analysis/
-├── data/                  7 source CSVs (synthetic, KES)
-├── sql/
-│   ├── schema.sql         CREATE TABLE statements with keys
-│   ├── task1_map_tables.sql
-│   ├── task2_customer_base.sql
-│   ├── task3_follow_the_money.sql
-│   ├── task4_balances_salaries_risk.sql
-│   └── task5_cross_sell.sql
-├── scripts/
-│   ├── build_db.py        loads CSVs into mlima_bank.db (SQLite)
-│   ├── run_queries.py     runs every query, saves results/*.csv + RESULTS.md
-│   └── make_charts.py     draws charts/*.png from the results
-├── results/               one CSV per query + RESULTS.md (all outputs)
-├── charts/                5 PNG charts
-├── diagram/               table/join diagram (PNG + SVG)
-├── report/                one-page summary for the Head of Retail Banking
-└── run_all.sh             rebuild everything in one command
-```
-
-## How to run
-
-```bash
-git clone <your-repo-url>
-cd mlima-bank-sql-analysis
-pip install -r requirements.txt      # only needed for the charts
-./run_all.sh                         # or run the three scripts in scripts/ in order
-```
-
-The SQL files can also be pasted straight into any SQL workspace. Each query starts with a `-- name:` line. The SQL is standard SQLite; the only dialect note is the year extraction (`SUBSTR(txn_date,1,4)`), and PostgreSQL/MySQL equivalents are noted in `task3`.
-
----
 
 ## Task 1 – Map the tables
 
@@ -129,5 +92,3 @@ Each CSV loads into a table named after its file (`bank-customers.csv` → `bank
 - **Double-counting:** joins to people use `holder_type = 'OWNER'`, or aggregate transactions first, so joint accounts are not counted twice.
 
 All query outputs are in [`results/RESULTS.md`](results/RESULTS.md).
-
-*Data is synthetic: Mlima Bank and its customers are fictional. It is structured after the PKDD'99 Czech bank dataset and re-set in Kenya.*
