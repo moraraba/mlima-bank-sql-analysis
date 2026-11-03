@@ -2,8 +2,6 @@
 
 SQL analysis of a (fictional) Kenyan retail bank's core-banking extract: seven tables covering 2021 to 2024. The goal is to find which customers are under-served by cards and loans, and where the bank should spend next year's cross-sell budget.
 
-**Role:** Data Analyst, Retail Banking Insights · **Tools:** SQL (SQLite: CTEs, window functions `ROW_NUMBER`, `NTILE`, `LAG`), Python, matplotlib
-
 > **Headline:** 66 of the 90 busiest accounts have no card and 48 have neither a card nor a loan. Loans on salary accounts go bad at 6.3%, against 26.1% without a salary.
 > → Offer cards to the top 10% first and salary-backed loans second, starting in Nairobi and Kiambu.
 > One-page summary: [`report/summary_for_head_of_retail.md`](report/summary_for_head_of_retail.md)
